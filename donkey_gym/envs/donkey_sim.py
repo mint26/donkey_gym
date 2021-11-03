@@ -33,7 +33,7 @@ class DonkeyUnitySimContoller():
     def __init__(self, level, time_step=0.05, port=9090):
         self.level = level
         self.time_step = time_step
-        self.verbose = True
+        self.verbose = False
         self.wait_time_for_obs = 0.1
 
         # sensor size - height, width, depth
